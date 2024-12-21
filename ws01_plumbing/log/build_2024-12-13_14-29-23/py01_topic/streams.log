@@ -1,0 +1,37 @@
+[0.451s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build install --record /home/ros/ros_learn/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.614s] running egg_info
+[0.614s] creating ../../build/py01_topic/py01_topic.egg-info
+[0.615s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.615s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.615s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.615s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.615s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.615s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.616s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.617s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.617s] running build
+[0.617s] running build_py
+[0.617s] creating /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build
+[0.617s] creating /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib
+[0.617s] creating /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.617s] copying py01_topic/demo01_talker_str_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.617s] copying py01_topic/__init__.py -> /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.618s] running install
+[0.618s] running install_lib
+[0.618s] creating /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.618s] copying /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.618s] copying /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.619s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[0.619s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.619s] running install_data
+[0.619s] creating /home/ros/ros_learn/ws01_plumbing/install/py01_topic/share/ament_index
+[0.619s] creating /home/ros/ros_learn/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[0.619s] creating /home/ros/ros_learn/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.619s] copying resource/py01_topic -> /home/ros/ros_learn/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.619s] copying package.xml -> /home/ros/ros_learn/ws01_plumbing/install/py01_topic/share/py01_topic
+[0.619s] running install_egg_info
+[0.620s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.621s] running install_scripts
+[0.637s] Installing demo01_talker_str_py script to /home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.637s] writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py01_topic/install.log'
+[0.657s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/ros/ros_learn/ws01_plumbing/build/py01_topic/build install --record /home/ros/ros_learn/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

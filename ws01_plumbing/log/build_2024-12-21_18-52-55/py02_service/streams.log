@@ -1,0 +1,38 @@
+[0.471s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/src/py02_service': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/ros/ros_learn/ws01_plumbing/build/py02_service/build install --record /home/ros/ros_learn/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed install_data
+[0.644s] running egg_info
+[0.645s] creating ../../build/py02_service/py02_service.egg-info
+[0.645s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[0.645s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[0.645s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[0.645s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[0.646s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.647s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.647s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build
+[0.647s] creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib
+[0.648s] creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+[0.648s] copying py02_service/demo01_server_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+[0.648s] copying py02_service/__init__.py -> /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+[0.648s] running install
+[0.648s] running install_lib
+[0.648s] creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.649s] copying /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.649s] copying /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service/__init__.py -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.649s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+[0.649s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/__init__.py to __init__.cpython-310.pyc
+[0.650s] running install_data
+[0.650s] creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index
+[0.650s] creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index
+[0.650s] creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[0.650s] copying resource/py02_service -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[0.650s] copying package.xml -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/py02_service
+[0.650s] running install_egg_info
+[0.651s] Copying ../../build/py02_service/py02_service.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[0.652s] running install_scripts
+[0.668s] Installing demo01_server_py script to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/py02_service
+[0.668s] Installing demo02_client_py script to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/py02_service
+[0.668s] writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py02_service/install.log'
+[0.685s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/src/py02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/ros/ros_learn/ws01_plumbing/build/py02_service/build install --record /home/ros/ros_learn/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed install_data

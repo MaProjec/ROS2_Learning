@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:30 (install):
+  install TARGETS given target "emo02_client" which does not exist.
+
+[0m

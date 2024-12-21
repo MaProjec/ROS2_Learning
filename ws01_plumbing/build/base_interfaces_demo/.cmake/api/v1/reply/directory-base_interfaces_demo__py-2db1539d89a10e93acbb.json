@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_interfaces_demo__py",
+		"source" : "/home/ros/ros_learn/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py"
+	}
+}

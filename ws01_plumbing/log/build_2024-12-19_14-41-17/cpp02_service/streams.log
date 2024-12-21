@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp02_service
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.179s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.180s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.294s] -- Found base_interfaces_demo: 0.0.0 (/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.301s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.352s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.352s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros_learn/ws01_plumbing/src/cpp02_service/include>
+[0.352s] -- Configured cppcheck exclude dirs and/or files: 
+[0.352s] -- Added test 'lint_cmake' to check CMake code style
+[0.353s] -- Added test 'uncrustify' to check C / C++ code style
+[0.353s] -- Configured uncrustify additional arguments: 
+[0.353s] -- Added test 'xmllint' to check XML markup files
+[0.354s] -- Configuring done
+[0.364s] -- Generating done
+[0.367s] -- Build files have been written to: /home/ros/ros_learn/ws01_plumbing/build/cpp02_service
+[0.373s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp02_service
+[0.375s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp02_service -- -j16 -l16
+[0.416s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.416s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[2.593s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[2.618s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[2.680s] [100%] Built target demo01_server
+[2.708s] [100%] Built target demo02_client
+[2.718s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp02_service -- -j16 -l16
+[2.727s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp02_service
+[2.733s] -- Install configuration: ""
+[2.733s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[2.733s] -- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[2.733s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[2.733s] -- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.734s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.735s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.736s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[2.737s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp02_service

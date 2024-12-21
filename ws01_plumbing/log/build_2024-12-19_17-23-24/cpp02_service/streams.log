@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp02_service -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.058s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[0.250s] [01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdemo_interfaces/srv/add_ints.hpp: 没有那个文件或目录
+[0.250s]     2 | #include [01;31m[K"demo_interfaces/srv/add_ints.hpp"[m[K
+[0.250s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s] compilation terminated.
+[0.254s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76：CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] 错误 1
+[0.254s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_client.dir/all] 错误 2
+[0.254s] gmake[1]: *** 正在等待未完成的任务....
+[2.689s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[2.794s] [ 75%] Built target demo01_server
+[2.795s] gmake: *** [Makefile:146：all] 错误 2
+[2.798s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp02_service -- -j16 -l16

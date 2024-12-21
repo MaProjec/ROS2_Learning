@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.056s] [ 50%] Built target demo01_talker_str
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[6.041s] [100%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[6.292s] [100%] Built target demo02_listener_str
+[6.302s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp01_topic -- -j16 -l16
+[6.310s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp01_topic
+[6.315s] -- Install configuration: ""
+[6.316s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[6.316s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[6.319s] -- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[6.320s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[6.320s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[6.321s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[6.321s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[6.321s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[6.321s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[6.322s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp01_topic

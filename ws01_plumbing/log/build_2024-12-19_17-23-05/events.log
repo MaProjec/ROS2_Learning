@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000590] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000612] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000645] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000663] (cpp02_service) JobQueued: {'identifier': 'cpp02_service', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000683] (cpp02_service) JobStarted: {'identifier': 'cpp02_service'}
+[0.009200] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'cmake'}
+[0.009758] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'build'}
+[0.010326] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service', '--', '-j16', '-l16'], 'cwd': '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros/ros_learn/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.96.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1506'), ('SYSTEMD_EXEC_PID', '1683'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14965'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros_learn/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:2649'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1654,unix/Lenovo:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', '4cfa619a2f6d4cc7a0360b5d8b228c28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2ZMDZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6138f91243.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros_learn/ws01_plumbing/build/cpp02_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/ros_learn/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble')]), 'shell': False}
+[0.045614] (cpp02_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_server\x1b[0m\n'}
+[0.045790] (cpp02_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_client\x1b[0m\n'}
+[0.061300] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o\x1b[0m\n'}
+[0.061469] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o\x1b[0m\n'}
+[0.099859] (-) TimerEvent: {}
+[0.200124] (-) TimerEvent: {}
+[0.256187] (cpp02_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_learn/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdemo_interfaces/srv/add_ints.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.256413] (cpp02_service) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"demo_interfaces/srv/add_ints.hpp"\x1b[m\x1b[K\n'}
+[0.256495] (cpp02_service) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.256560] (cpp02_service) StderrLine: {'line': b'compilation terminated.\n'}
+[0.260298] (cpp02_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.260605] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/demo02_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.260701] (cpp02_service) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.300224] (-) TimerEvent: {}
+[0.400489] (-) TimerEvent: {}
+[0.500765] (-) TimerEvent: {}
+[0.601028] (-) TimerEvent: {}
+[0.701296] (-) TimerEvent: {}
+[0.801616] (-) TimerEvent: {}
+[0.901893] (-) TimerEvent: {}
+[1.002176] (-) TimerEvent: {}
+[1.102466] (-) TimerEvent: {}
+[1.202745] (-) TimerEvent: {}
+[1.303025] (-) TimerEvent: {}
+[1.403305] (-) TimerEvent: {}
+[1.503593] (-) TimerEvent: {}
+[1.603871] (-) TimerEvent: {}
+[1.704150] (-) TimerEvent: {}
+[1.804432] (-) TimerEvent: {}
+[1.904727] (-) TimerEvent: {}
+[2.005005] (-) TimerEvent: {}
+[2.105286] (-) TimerEvent: {}
+[2.205565] (-) TimerEvent: {}
+[2.305858] (-) TimerEvent: {}
+[2.406138] (-) TimerEvent: {}
+[2.506413] (-) TimerEvent: {}
+[2.606687] (-) TimerEvent: {}
+[2.700191] (cpp02_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_server\x1b[0m\n'}
+[2.706779] (-) TimerEvent: {}
+[2.807022] (-) TimerEvent: {}
+[2.810945] (cpp02_service) StdoutLine: {'line': b'[ 75%] Built target demo01_server\n'}
+[2.812088] (cpp02_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.814188] (cpp02_service) CommandEnded: {'returncode': 2}
+[2.822226] (cpp02_service) JobEnded: {'identifier': 'cpp02_service', 'rc': 2}
+[2.832565] (-) EventReactorShutdown: {}

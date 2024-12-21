@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[ 87%] Built target demo03_talker_stu
+[ 87%] Built target demo02_listener_str
+[ 87%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 87%] Built target demo01_talker_str
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In member function ‘[01m[Kvoid ListenerStu::topic_callback(const Student&)[m[K’:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:14:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 |     void topic_callback([01;35m[Kconst Student &stu[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[100%] Built target demo04_listener_stu
+-- Install configuration: ""
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+-- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+-- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+-- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+-- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+-- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000233] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000254] (py01_topic) JobQueued: {'identifier': 'py01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000275] (py01_topic) JobStarted: {'identifier': 'py01_topic'}
+[0.005492] (py01_topic) JobEnded: {'identifier': 'py01_topic', 'rc': 1}
+[0.015941] (-) EventReactorShutdown: {}

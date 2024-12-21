@@ -1,0 +1,5 @@
+  File "/home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo02_client_py.py", line 14
+    //client = AddIntsClient()
+    ^^
+SyntaxError: invalid syntax
+

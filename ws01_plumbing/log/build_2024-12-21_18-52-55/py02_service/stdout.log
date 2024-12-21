@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/py02_service/py02_service.egg-info
+writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build
+creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib
+creating /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+copying py02_service/demo01_server_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+copying py02_service/__init__.py -> /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service
+running install
+running install_lib
+creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+copying /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+copying /home/ros/ros_learn/ws01_plumbing/build/py02_service/build/lib/py02_service/__init__.py -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index
+creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index
+creating /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+copying resource/py02_service -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros/ros_learn/ws01_plumbing/install/py02_service/share/py02_service
+running install_egg_info
+Copying ../../build/py02_service/py02_service.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_server_py script to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/py02_service
+Installing demo02_client_py script to /home/ros/ros_learn/ws01_plumbing/install/py02_service/lib/py02_service
+writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py02_service/install.log'

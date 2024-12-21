@@ -1,0 +1,78 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found base_interfaces_demo: 0.0.0 (/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/ros_learn/ws01_plumbing/build/cpp01_topic
+[35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   16 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   16 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_subscription_t[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+    9 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+    9 |         subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:10:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   10 |             "topic", 10, [this](const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) {
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In lambda function:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   12 |             })[01;31m[K;[m[K
+      |               [01;31m[K^[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    9 |         subscription_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+      |                                                                         [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76：CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener_stu.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 62%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[ 75%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[ 75%] Built target demo01_talker_str
+[ 75%] Built target demo03_talker_stu
+[ 87%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[ 87%] Built target demo02_listener_str
+gmake: *** [Makefile:146：all] 错误 2

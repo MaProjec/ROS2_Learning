@@ -1,0 +1,44 @@
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   16 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:16:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   16 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_subscription_t[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+    9 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+    9 |         subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:10:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   10 |             "topic", 10, [this](const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) {
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In lambda function:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   12 |             })[01;31m[K;[m[K
+      |               [01;31m[K^[m[K
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:12:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/ros/ros_learn/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:9:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    9 |         subscription_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+      |                                                                         [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76：CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener_stu.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
