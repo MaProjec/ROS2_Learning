@@ -1,0 +1,25 @@
+[0.436s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/src/py03_action': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp03_action:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/ros/ros_learn/ws01_plumbing/build/py03_action/build install --record /home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data
+[0.609s] running egg_info
+[0.609s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[0.609s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[0.610s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[0.610s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[0.610s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[0.611s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.612s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.612s] running build
+[0.612s] running build_py
+[0.612s] copying py03_action/demo02_action_client_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.612s] running install
+[0.613s] running install_lib
+[0.613s] copying /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.614s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc
+[0.614s] running install_data
+[0.614s] running install_egg_info
+[0.616s] removing '/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.616s] Copying ../../build/py03_action/py03_action.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[0.617s] running install_scripts
+[0.632s] Installing demo01_action_server_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+[0.632s] Installing demo02_action_client_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+[0.632s] writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log'
+[0.648s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/src/py03_action' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:/home/ros/ros_learn/ws01_plumbing/install/cpp03_action:/home/ros/ros_learn/ws01_plumbing/install/cpp02_service:/home/ros/ros_learn/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/ros/ros_learn/ws01_plumbing/build/py03_action/build install --record /home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data

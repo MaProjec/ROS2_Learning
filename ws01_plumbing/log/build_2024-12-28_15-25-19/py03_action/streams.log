@@ -1,0 +1,25 @@
+[0.443s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/src/py03_action': AMENT_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/ros/ros_learn/ws01_plumbing/build/py03_action/build install --record /home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.612s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[0.614s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.615s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] copying py03_action/demo01_action_server_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action
+[0.615s] running install
+[0.616s] running install_lib
+[0.616s] copying /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[0.617s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc
+[0.617s] running install_data
+[0.617s] running install_egg_info
+[0.618s] removing '/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.619s] Copying ../../build/py03_action/py03_action.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[0.619s] running install_scripts
+[0.635s] Installing demo01_action_server_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+[0.635s] Installing demo02_action_client_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+[0.635s] writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log'
+[0.651s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/src/py03_action' returned '0': AMENT_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py03_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/ros/ros_learn/ws01_plumbing/build/py03_action/build install --record /home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py03_action/demo02_action_client_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action
+running install
+running install_lib
+copying /home/ros/ros_learn/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py03_action/py03_action.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_action_server_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+Installing demo02_action_client_py script to /home/ros/ros_learn/ws01_plumbing/install/py03_action/lib/py03_action
+writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py03_action/install.log'

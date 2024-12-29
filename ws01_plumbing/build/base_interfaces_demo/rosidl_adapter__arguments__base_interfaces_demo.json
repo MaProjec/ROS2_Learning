@@ -2,6 +2,7 @@
   "package_name": "base_interfaces_demo",
   "non_idl_tuples": [
     "/home/ros/ros_learn/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
-    "/home/ros/ros_learn/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv"
+    "/home/ros/ros_learn/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
+    "/home/ros/ros_learn/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
   ]
 }

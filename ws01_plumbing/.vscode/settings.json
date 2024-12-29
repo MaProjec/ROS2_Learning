@@ -80,5 +80,23 @@
     ],
     "python.analysis.extraPaths": [
         "/home/ros/ros_learn/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "list.dropBackground": "#333333",
+        "list.focusBackground": "#1E1E1E",
+        "list.focusForeground": "#FFFFFF",
+        "list.hoverBackground": "#2A2D2E",
+        "list.hoverForeground": "#FFFFFF",
+        "list.inactiveSelectionBackground": "#3A3D41",
+        "list.inactiveSelectionForeground": "#FFFFFF",
+        "list.activeSelectionBackground": "#094771",
+        "list.activeSelectionForeground": "#FFFFFF"
+    },
+    "editor.fontSize": 14, // 修改为你想要的字体大小
+    "window.zoomLevel": 0.8, // 修改为你想要的缩放级别
+    "explorer.decorations.colors": true,
+    "explorer.decorations.badges": true
+
 }
