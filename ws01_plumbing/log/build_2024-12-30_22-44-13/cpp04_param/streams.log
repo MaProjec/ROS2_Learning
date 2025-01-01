@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp04_param
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.411s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.492s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.532s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.536s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.612s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.615s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.727s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.769s] -- Looking for pthread.h
+[0.832s] -- Looking for pthread.h - found
+[0.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.893s] -- Found Threads: TRUE  
+[0.939s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.001s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.001s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros_learn/ws01_plumbing/src/cpp04_param/include>
+[1.001s] -- Configured cppcheck exclude dirs and/or files: 
+[1.002s] -- Added test 'lint_cmake' to check CMake code style
+[1.003s] -- Added test 'uncrustify' to check C / C++ code style
+[1.003s] -- Configured uncrustify additional arguments: 
+[1.003s] -- Added test 'xmllint' to check XML markup files
+[1.005s] -- Configuring done
+[1.013s] -- Generating done
+[1.016s] -- Build files have been written to: /home/ros/ros_learn/ws01_plumbing/build/cpp04_param
+[1.025s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp04_param
+[1.027s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[1.069s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[3.332s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[3.425s] [100%] Built target demo00_param
+[3.435s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[3.444s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param
+[3.449s] -- Install configuration: ""
+[3.450s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[3.450s] -- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[3.450s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[3.450s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[3.450s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[3.451s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[3.452s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[3.452s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[3.452s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[3.452s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[3.452s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[3.454s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param

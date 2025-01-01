@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp04_param
+Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_learn/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/install/cpp04_param
+Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param
+Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param

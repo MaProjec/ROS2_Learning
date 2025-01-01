@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py04_param/py04_param.egg-info
+writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build
+creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib
+creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+copying py04_param/demo00_param_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+copying py04_param/__init__.py -> /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+running install
+running install_lib
+creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+copying /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param/demo00_param_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+copying /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param/__init__.py -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo00_param_py.py to demo00_param_py.cpython-310.pyc
+byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index
+creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index
+creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+copying resource/py04_param -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/py04_param
+running install_egg_info
+Copying ../../build/py04_param/py04_param.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo00_param_py script to /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/py04_param
+writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py04_param/install.log'

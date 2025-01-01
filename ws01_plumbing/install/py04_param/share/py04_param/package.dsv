@@ -1,0 +1,6 @@
+source;share/py04_param/hook/pythonpath.ps1
+source;share/py04_param/hook/pythonpath.dsv
+source;share/py04_param/hook/pythonpath.sh
+source;share/py04_param/hook/ament_prefix_path.ps1
+source;share/py04_param/hook/ament_prefix_path.dsv
+source;share/py04_param/hook/ament_prefix_path.sh

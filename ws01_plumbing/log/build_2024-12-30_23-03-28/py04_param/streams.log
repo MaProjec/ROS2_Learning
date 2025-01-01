@@ -1,0 +1,37 @@
+[0.460s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/src/py04_param': PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/ros/ros_learn/ws01_plumbing/build/py04_param/build install --record /home/ros/ros_learn/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed install_data
+[0.630s] running egg_info
+[0.630s] creating ../../build/py04_param/py04_param.egg-info
+[0.630s] writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+[0.631s] writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+[0.631s] writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+[0.631s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[0.632s] reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[0.633s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[0.633s] running build
+[0.633s] running build_py
+[0.633s] creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build
+[0.633s] creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib
+[0.633s] creating /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+[0.633s] copying py04_param/demo00_param_py.py -> /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+[0.633s] copying py04_param/__init__.py -> /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param
+[0.633s] running install
+[0.633s] running install_lib
+[0.634s] creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.634s] copying /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param/demo00_param_py.py -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.634s] copying /home/ros/ros_learn/ws01_plumbing/build/py04_param/build/lib/py04_param/__init__.py -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param
+[0.634s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo00_param_py.py to demo00_param_py.cpython-310.pyc
+[0.635s] byte-compiling /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/__init__.py to __init__.cpython-310.pyc
+[0.635s] running install_data
+[0.635s] creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index
+[0.635s] creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index
+[0.635s] creating /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+[0.635s] copying resource/py04_param -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/ament_index/resource_index/packages
+[0.635s] copying package.xml -> /home/ros/ros_learn/ws01_plumbing/install/py04_param/share/py04_param
+[0.635s] running install_egg_info
+[0.637s] Copying ../../build/py04_param/py04_param.egg-info to /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.653s] Installing demo00_param_py script to /home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/py04_param
+[0.654s] writing list of installed files to '/home/ros/ros_learn/ws01_plumbing/build/py04_param/install.log'
+[0.672s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/src/py04_param' returned '0': PYTHONPATH=/home/ros/ros_learn/ws01_plumbing/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_learn/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/ros/ros_learn/ws01_plumbing/build/py04_param/build install --record /home/ros/ros_learn/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed install_data

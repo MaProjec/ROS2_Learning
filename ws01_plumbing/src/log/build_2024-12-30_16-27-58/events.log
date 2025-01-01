@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000221] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000242] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000263] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000280] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000299] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000317] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000335] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000354] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.000375] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.025932] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.026388] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_learn/ws01_plumbing/src/cpp04_param', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_learn/ws01_plumbing/src/install/cpp04_param'], 'cwd': '/home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1463'), ('SYSTEMD_EXEC_PID', '1640'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2305'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros_learn/ws01_plumbing/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:7623'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1610,unix/Lenovo:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '4df9e2f81e2d47b9bb29ec2cbef9703c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A0NYZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6138f91243.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099266] (-) TimerEvent: {}
+[0.116297] (cpp04_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.177057] (cpp04_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.185236] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199365] (-) TimerEvent: {}
+[0.244751] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.249991] (cpp04_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.250293] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.250794] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.253573] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299482] (-) TimerEvent: {}
+[0.318386] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323759] (cpp04_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323966] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.324317] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.327629] (cpp04_param) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399580] (-) TimerEvent: {}
+[0.443048] (cpp04_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499695] (-) TimerEvent: {}
+[0.529911] (cpp04_param) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.570190] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.574711] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.582589] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.594921] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599779] (-) TimerEvent: {}
+[0.610408] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.652111] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.654659] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699896] (-) TimerEvent: {}
+[0.736084] (cpp04_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.758510] (cpp04_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.791318] (cpp04_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.799153] (cpp04_param) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.799987] (-) TimerEvent: {}
+[0.858811] (cpp04_param) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.859164] (cpp04_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900107] (-) TimerEvent: {}
+[0.918473] (cpp04_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.919301] (cpp04_param) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.966531] (cpp04_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000205] (-) TimerEvent: {}
+[1.030012] (cpp04_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.030200] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros_learn/ws01_plumbing/src/cpp04_param/include>\n'}
+[1.030278] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.030813] (cpp04_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.031806] (cpp04_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.031874] (cpp04_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.032278] (cpp04_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.033646] (cpp04_param) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.040763] (cpp04_param) StdoutLine: {'line': b'-- Generating done\n'}
+[1.043302] (cpp04_param) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param\n'}
+[1.050405] (cpp04_param) CommandEnded: {'returncode': 0}
+[1.051911] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[1.052045] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param', '--', '-j16', '-l16'], 'cwd': '/home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1463'), ('SYSTEMD_EXEC_PID', '1640'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2305'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros_learn/ws01_plumbing/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:7623'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/Lenovo:@/tmp/.ICE-unix/1610,unix/Lenovo:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '4df9e2f81e2d47b9bb29ec2cbef9703c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A0NYZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6138f91243.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros_learn/ws01_plumbing/src/build/cpp04_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.092296] (cpp04_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o\x1b[0m\n'}
+[1.100289] (-) TimerEvent: {}
+[1.200656] (-) TimerEvent: {}
+[1.301045] (-) TimerEvent: {}
+[1.401341] (-) TimerEvent: {}
+[1.501673] (-) TimerEvent: {}
+[1.602018] (-) TimerEvent: {}
+[1.702326] (-) TimerEvent: {}
+[1.802670] (-) TimerEvent: {}
+[1.902929] (-) TimerEvent: {}
+[2.003251] (-) TimerEvent: {}
+[2.103602] (-) TimerEvent: {}
+[2.203869] (-) TimerEvent: {}
+[2.304137] (-) TimerEvent: {}
+[2.404410] (-) TimerEvent: {}
+[2.504692] (-) TimerEvent: {}
+[2.604967] (-) TimerEvent: {}
+[2.705241] (-) TimerEvent: {}
+[2.805495] (-) TimerEvent: {}
+[2.905779] (-) TimerEvent: {}
+[3.006061] (-) TimerEvent: {}
+[3.106347] (-) TimerEvent: {}
+[3.144167] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.144351] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.144442] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.144515] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.144576] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros_learn/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:1\x1b[m\x1b[K:\n'}
+[3.144643] (cpp04_param) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Myparam; _Args = {}; _Tp = Myparam]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.144705] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Myparam; _Args = {}; _Tp = Myparam; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Myparam>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144766] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = Myparam; _Alloc = std::allocator<Myparam>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144813] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Myparam; _Alloc = std::allocator<Myparam>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144865] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Myparam>; _Args = {}; _Tp = Myparam; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144910] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Myparam>; _Args = {}; _Tp = Myparam]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144954] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Myparam; _Alloc = std::allocator<Myparam>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.144996] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Myparam; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.145039] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_learn/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:26:40:\x1b[m\x1b[K   required from here\n'}
+[3.145081] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyparam::Myparam()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[3.145124] (cpp04_param) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.145171] (cpp04_param) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.145212] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_learn/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:5:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[3.145253] (cpp04_param) StderrLine: {'line': b'    5 |   \x1b[01;36m\x1b[KMyparam\x1b[m\x1b[K():Node("my_param_node_cpp")\n'}
+[3.145293] (cpp04_param) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.206478] (-) TimerEvent: {}
+[3.208095] (cpp04_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.208368] (cpp04_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/demo00_param.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.208658] (cpp04_param) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.210958] (cpp04_param) CommandEnded: {'returncode': 2}
+[3.222027] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 2}
+[3.232443] (-) EventReactorShutdown: {}

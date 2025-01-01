@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros_learn/ws01_plumbing/install/py04_param:/home/ros/ros_learn/ws01_plumbing/install/py03_action:/home/ros/ros_learn/ws01_plumbing/install/py02_service:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.056s] [ 66%] Built target demo01_param_server
+[0.056s] [ 66%] Built target demo00_param
+[0.060s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[2.517s] [100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[2.607s] [100%] Built target demo02_param_client
+[2.617s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros_learn/ws01_plumbing/install/py04_param:/home/ros/ros_learn/ws01_plumbing/install/py03_action:/home/ros/ros_learn/ws01_plumbing/install/py02_service:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp04_param -- -j16 -l16
+[2.626s] Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros_learn/ws01_plumbing/install/py04_param:/home/ros/ros_learn/ws01_plumbing/install/py03_action:/home/ros/ros_learn/ws01_plumbing/install/py02_service:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param
+[2.632s] -- Install configuration: ""
+[2.632s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[2.632s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[2.632s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[2.633s] -- Set runtime path of "/home/ros/ros_learn/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[2.633s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[2.633s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[2.633s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[2.634s] -- Installing: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[2.634s] -- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[2.635s] Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros_learn/ws01_plumbing/install/py04_param:/home/ros/ros_learn/ws01_plumbing/install/py03_action:/home/ros/ros_learn/ws01_plumbing/install/py02_service:/home/ros/ros_learn/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp04_param
