@@ -1,0 +1,15 @@
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+/home/ros/ros_learn/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.xml
