@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_name[0m
+[100%] Built target demo01_name
+-- Install configuration: ""
+-- Up-to-date: /home/ros/ros_learn/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_name
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/ros/ros_learn/ws01_plumbing/src/cpp05_names/launch": No such file or
+  directory.
+
+[0m

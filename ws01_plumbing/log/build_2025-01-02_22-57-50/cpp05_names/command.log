@@ -1,0 +1,4 @@
+Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp05_names -- -j16 -l16
+Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_learn/ws01_plumbing/build/cpp05_names -- -j16 -l16
+Invoking command in '/home/ros/ros_learn/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp05_names
+Invoked command in '/home/ros/ros_learn/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_learn/ws01_plumbing/build/cpp05_names
